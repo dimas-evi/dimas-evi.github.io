@@ -1,0 +1,959 @@
+body{
+    background-color: #FAECE0;
+}
+
+.componen-one{
+    /* width: 10rem; */
+}
+
+.img-u-berdua{
+    margin-top: 2rem;
+    width:23em;
+}
+
+/* FONT */
+.font-one{
+    font-family: 'Pacifico', cursive;
+}
+
+.font-two{
+    font-family: 'Inter', sans-serif;
+}
+
+.font-tree{
+    font-family: 'Quicksand', sans-serif;
+}
+
+.font-bold{
+    font-weight: bold;
+}
+
+.font-size-55{
+    font-size: 55px;
+}
+
+.bg-default{
+    background-color:#5F5F21;
+}
+
+.bg-pjk{
+    background-color: #EFE6C4;
+}
+
+.bg-circle-love{
+    background-color: rgba(95, 95, 33, 0.4);
+}
+
+.border-default{
+    border-color: #5F5F21!important;;
+}
+
+.rounded-default{
+    border-radius: 0.5em;
+}
+
+.mt-100{
+    margin-top: 100px;
+}
+
+.mt-min15{
+    margin-top: -15px;
+}
+
+.mt-min10{
+    margin-top: -10px;
+}
+
+.color-one{
+    color: #5F5F21;
+}
+
+.btn-default{
+    background-color: #fff;
+    color: #5F5F21;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    opacity: 0.6;
+    transition: 0.3s;
+}
+
+.btn-default:hover{
+    color: #858536;
+}
+
+.componen-left{
+    position: absolute;
+}
+
+.componen-right{
+    position: absolute;
+}
+
+/* Flower */
+
+.flower-right-2{
+    margin-top: -500px;
+}
+
+.flower-left-2{
+    margin-top: -500px;
+}
+
+.flower-right-3{
+    margin-top: -400px;
+    width: 600px;
+}
+
+.flower-left-3{
+    width: 600px;
+}
+
+.flower-right-4{
+    margin-top: -300px;
+    width: 500px;
+}
+
+.flower-left-4{
+    width: 500px;
+}
+
+/* Animasi glombang */
+.rotate-img-180 {
+    -webkit-transform:rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+.waves {
+    position: relative;
+    width: 100%;
+    height: 15vh;
+    margin-bottom: -7px;
+    min-height: 100px;
+    max-height: 150px;
+}
+
+.content {
+    position: relative;
+    height: 20vh;
+    text-align: center;
+    background-color: white;
+}
+
+.parallax>use {
+    animation: move-forever 25s cubic-bezier(.55, .5, .45, .5) infinite;
+}
+
+.parallax>use:nth-child(1) {
+    animation-delay: -14s;
+    animation-duration: 7s;
+    }
+
+.parallax>use:nth-child(2) {
+    animation-delay: -16s;
+    animation-duration: 10s;
+    }
+
+.parallax>use:nth-child(3) {
+    animation-delay: -18s;
+    animation-duration: 13s;
+    }
+
+.parallax>use:nth-child(4) {
+    animation-delay: -20s;
+    animation-duration: 20s;
+    }
+
+@keyframes move-forever {
+    0% {
+        transform: translate3d(-90px, 0, 0);
+    }
+    100% {
+        transform: translate3d(85px, 0, 0);
+    }
+}
+
+/* LINK VETICAL */
+.link-vertical {
+    display: flex;
+    flex-flow: row;
+    min-height: 100px;
+    position: relative;
+}
+
+span.icon-love-one {
+    margin-right: 50px;
+    text-align: center;
+    width: 2em;
+    height: 2em;
+    border-radius: 100%;
+    z-index: 1;
+    margin-top: 16px;
+    margin-left: 8px;
+}
+
+span.icon-love {
+    margin-right: 50px;
+    text-align: center;
+    width: 3em;
+    height: 3em;
+    border-radius: 100%;
+    z-index: 1;
+}
+
+span.icon-love-last {
+    margin-right: 50px;
+    text-align: center;
+    width:2em;
+    height:2em;
+    border-radius: 100%;
+    z-index: 1;
+    margin-top: 0px;
+    margin-left: 8px;
+}
+
+span.line {
+  position: absolute;
+  height: 100%;
+  margin-top: 48px;
+  left:22px;
+  border: solid rgba(95, 95, 33, 0.4);
+}
+
+span.line-one {
+  /* position: absolute;
+  height: 400px;
+  margin-top: 48px;
+  left:22px;
+  border: solid rgba(95, 95, 33, 0.4); */
+
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 22px; /* sesuaikan dengan posisi icon-love */
+  width: 2px;
+  border: solid rgba(95, 95, 33, 0.4);
+  z-index: 0;
+}
+
+span.line-last {
+  /* position: absolute;
+  height: 96px;
+  margin-top: 48px;
+  left: 22px;
+  border: solid rgba(95, 95, 33, 0.4); */
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 22px; /* sesuaikan dengan posisi icon-love */
+  width: 2px;
+  border: solid rgba(95, 95, 33, 0.4);
+  z-index: 0;
+}
+
+span.love-mt-1{
+    margin-top: 10px;
+}
+
+span.love-mt-2{
+    margin-top: 20px;
+}
+
+.wh-maps{
+    height: 20rem;
+    width: 59rem;
+    border:0;
+    z-index: 222;
+}
+
+/* NAVBAR */
+.navbar{
+    box-shadow: none;
+    height: 4.5rem;
+    max-width: 800px !important;
+    margin: 0 auto !important;
+    padding: 0 !important;
+    background-color: #fff;
+}
+
+.radius-nav{
+    /* box-shadow: rgb(0 0 0 / 15%) 0px -10px 20px; */
+    border-radius: 60px 60px 0px 0px;
+}
+
+.navbar-shadow{
+  -webkit-box-shadow: 0 4px 6px -6px #222;
+  -moz-box-shadow: 0 4px 6px -6px #222;
+  box-shadow: 0 3px 6px -6px #222;
+}
+
+.navbar .navbar-brand{
+    display: inline-block;
+    padding-top: 0.36328125rem;
+    padding-bottom: 0.36328125rem;
+    margin-right: 1rem;
+    font-size: 1.09375rem;
+    line-height: inherit;
+    white-space: nowrap;
+}
+
+.navbar .nav-flex-icons {
+    flex-direction: row;
+}
+
+.navbar-nav {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+
+.nav-buttom{
+    background-color: #ffffff;
+    height: 5rem;
+}
+
+.flex-fill{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 10em;
+}
+
+.span-icon-nav-buttom{
+    align-items: center;
+    display: flex;
+    font-size: 1rem;
+    justify-content: center;
+    margin: auto;
+}
+
+.icon-nav-buttom-b{
+    width: 2.5em;
+}
+
+.icon-nav-buttom-m{
+    width: 2.5em;
+}
+
+.icon-nav-buttom-a{
+    width: 2.2em;
+}
+
+.nav-title{
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #5F5F21;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.app-font-1{
+    font-size:22px;
+}
+
+.w-shadow-1{
+    width: 100%;
+    max-width: 40rem; /* jadi tetap bisa lebar di desktop */
+    height: auto;
+    max-height: 100%;
+}
+
+.width-ctuk-1{
+    /* height: 14rem; */
+    height: auto;
+}
+
+.width-maps-1{
+    height: 21rem;
+}
+
+.p-time{
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+/* tutup navbar */
+@media (max-width: 1400px) {
+    .wh-maps{
+        width: 51rem;
+        border:0;
+    }
+}
+
+@media (max-width: 1200px) {
+    .componen-left{
+        width: 35rem;
+    }
+
+    .componen-right{
+        width: 35rem;
+    }
+
+    .flower-right-2{
+        margin-top: -300px;
+        width: 25rem;
+    }
+
+    .flower-left-2{
+        margin-top: -400px;
+        width: 30rem;
+    }
+
+    .flower-right-3{
+        margin-top: -150px;
+        width: 25rem;
+    }
+
+    .flower-left-3{
+        margin-top: -50px;
+        width: 30rem;
+    }
+
+    .flower-right-4{
+        margin-top: -200px;
+        width: 350px;
+    }
+
+    .flower-left-4{
+        width: 350px;
+    }
+
+    .wh-maps{
+        width: 42.5rem;
+        border:0;
+    }
+
+    span.icon-love {
+        width: 3em;
+        height: 2.5em;
+        margin-left: 5px;
+    }
+}
+
+@media (max-width: 992px) {
+    .flower-right-3{
+        margin-top: 0px;
+    }
+
+    .flower-left-3{
+        margin-top: 300px;
+        width: 25rem;
+    }
+    .wh-maps{
+        width: 42.5rem;
+        border:0;
+    }
+
+    span.icon-love {
+        width: 2.5em;
+        height: 2.5em;
+        margin-left: 5px;
+    }
+
+/* navbar */
+    .flex-fill{
+        width: 9.1em;
+    }
+}
+
+@media (max-width: 768px) {
+    .componen-left{
+        width: 25rem;
+    }
+
+    .componen-right{
+        width: 25rem;
+    }
+
+    .flower-right-2{
+        margin-top: -200px;
+        width: 15rem;
+    }
+
+    .flower-left-2{
+        margin-top: -250px;
+        width: 17rem;
+    }
+
+    .flower-right-3{
+        margin-top: -0px;
+        width: 12rem;
+    }
+
+    .flower-left-3{
+        margin-top: -0px;
+        width: 17rem;
+    }
+
+    .flower-right-4{
+        display: none;
+    }
+
+    .flower-left-4{
+        display: none;
+    }
+
+    .waves {
+        height: 40px;
+        min-height: 40px;
+    }
+
+    /* navbar */
+    .navbar{
+        height: 4.5rem;
+        max-width: 570px !important;
+    }
+
+    .nav-buttom{
+        height: 4.8rem;
+    }
+
+    .flex-fill{
+        width: 7em;
+    }
+
+    .icon-nav-buttom-b{
+        width: 2em;
+    }
+
+    .icon-nav-buttom-m{
+        width: 2em;
+    }
+
+    .icon-nav-buttom-a{
+        width: 1.7em;
+    }
+
+    .nav-title{
+        font-size: 1rem;
+    }
+
+    .app-font-1{
+        font-size:19px;
+    }
+}
+
+@media (max-width: 576px) {
+    .componen-left{
+        width: 16rem;
+    }
+
+    .componen-right{
+        width: 16rem;
+    }
+
+    .flower-right-2{
+        margin-top: -200px;
+        width: 20rem;
+        z-index: -1;
+    }
+
+    .flower-left-2{
+        margin-top: -250px;
+        width: 17rem;
+        z-index: -1;
+    }
+
+    .flower-right-3{
+        margin-top: 470px;
+        width: 11rem;
+    }
+
+    .flower-left-3{
+        margin-top: 550px;
+        width: 11rem;
+    }
+
+    .flower-right-4{
+        display: none;
+    }
+
+    .flower-left-4{
+        display: none;
+    }
+
+    .waves {
+        height: 40px;
+        min-height: 40px;
+    }
+
+    /* navbar */
+    .navbar{
+        height: 4.5rem;
+        max-width: 450px !important;
+    }
+
+    .nav-buttom{
+        height: 4rem;
+    }
+
+    .radius-nav{
+        border-radius: 40px 40px 0px 0px;
+    }
+
+    .flex-fill{
+        width: 5.6em;
+    }
+
+    .icon-nav-buttom-b{
+        width: 1.5em;
+    }
+
+    .icon-nav-buttom-m{
+        width: 1.5em;
+    }
+
+    .icon-nav-buttom-a{
+        width: 1.5em;
+    }
+
+    .nav-title{
+        font-size: 13px;
+    }
+
+    .app-font-1{
+        font-size:14px;
+    }
+
+    .w-shadow-1{
+        /* width: 25rem; height: 13rem; */
+        width: 100%;
+    max-width: 40rem;
+    height: auto;
+    max-height: 100%;
+    }
+
+    span.icon-love {
+        margin-right: 10px;
+    }
+
+    .wh-maps{
+        width: 28.1rem;
+        border:0;
+    }
+
+    .p-time{
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+
+@media (min-width: 325px) and (max-width: 469px) {
+    .componen-left{
+        width: 14rem;
+        z-index: -1;
+    }
+
+    .componen-right{
+        width: 10rem;
+        z-index: -1;
+    }
+
+    .flower-right-2{
+        margin-top: -200px;
+        width: 20rem;
+        z-index: -1;
+    }
+
+    .flower-left-2{
+        margin-top: -250px;
+        width: 17rem;
+        z-index: -1;
+    }
+
+    .flower-right-3{
+        display: none;
+    }
+
+    .flower-left-3{
+        display: none;
+    }
+
+    .flower-right-4{
+        display: none;
+    }
+
+    .flower-left-4{
+        display: none;
+    }
+
+    .waves {
+        height: 40px;
+        min-height: 40px;
+    }
+
+    .w-shadow-1{
+        /* width: 40rem; height: 13rem; */
+        width: 100%;
+    max-width: 40rem;
+    height: auto;
+    max-height: 100%;
+    }
+
+    /* navbar */
+    .navbar{
+        height: 4rem;
+        max-width: 350px !important;
+    }
+
+    .nav-buttom{
+        height: 4rem;
+    }
+
+    .radius-nav{
+        border-radius: 30px 30px 0px 0px;
+    }
+
+    .flex-fill{
+        width: 4.3em;
+    }
+
+    .icon-nav-buttom-b{
+        width: 1.5em;
+    }
+
+    .icon-nav-buttom-m{
+        width: 1.5em;
+    }
+
+    .icon-nav-buttom-a{
+        width: 1.5em;
+    }
+
+    .nav-title{
+        font-size: 13px;
+    }
+
+    .app-font-1{
+        font-size:14px;
+    }
+
+    .w-shadow-1{
+        /* width: 18.5rem; height: 16rem; */
+        width: 100%;
+    max-width: 40rem;
+    height: auto;
+    max-height: 100%;
+    }
+
+    span.icon-love {
+        margin-right: 10px;
+    }
+
+    .p-time{
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+
+    .mt-100{
+        margin-top: 40px;
+    }
+
+    span.line-one {
+        /* height: 210px;
+        left:22px; */
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 22px; /* sesuaikan dengan posisi icon-love */
+        width: 2px;
+        border: solid rgba(95, 95, 33, 0.4);
+        z-index: 0;
+    }
+
+    span.line-last {
+        /* height: 144px; */
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 22px; /* sesuaikan dengan posisi icon-love */
+        width: 2px;
+        border: solid rgba(95, 95, 33, 0.4);
+        z-index: 0;
+    }
+
+    .width-ctuk-1{
+        width: 23rem;
+    }
+
+    .width-maps-1{
+        width: 23rem;
+    }
+
+    .wh-maps{
+        width: 22rem;
+        border:0;
+    }
+
+    .size-mobile{
+        font-size: 15px;
+    }
+
+    .size-mobile{
+        font-size: 14px;
+    }
+
+    .font-size-55{
+        font-size: 35px;
+    }
+}
+
+@media (min-width: 200px) and (max-width: 324px) {
+    .componen-left{
+        width: 14rem;
+        z-index: -1;
+    }
+
+    .componen-right{
+        width: 10rem;
+        z-index: -1;
+    }
+
+    .flower-right-2{
+        margin-top: -200px;
+        width: 20rem;
+        z-index: -1;
+    }
+
+    .flower-left-2{
+        margin-top: -250px;
+        width: 17rem;
+        z-index: -1;
+    }
+
+    .flower-right-3{
+        display: none;
+    }
+
+    .flower-left-3{
+        display: none;
+    }
+
+    .flower-right-4{
+        display: none;
+    }
+
+    .flower-left-4{
+        display: none;
+    }
+
+    .waves {
+        height: 40px;
+        min-height: 40px;
+    }
+
+    .w-shadow-1{
+        /* width: 40rem; height: 13rem; */
+        width: 100%;
+        max-width: 40rem;
+        height: auto;
+        max-height: 100%;
+    }
+
+    /* navbar */
+    .navbar{
+        height: 4rem;
+        max-width: 350px !important;
+    }
+
+    .nav-buttom{
+        height: 4rem;
+    }
+
+    .radius-nav{
+        border-radius: 30px 30px 0px 0px;
+    }
+
+    .flex-fill{
+        width: 4.3em;
+    }
+
+    .icon-nav-buttom-b{
+        width: 1.5em;
+    }
+
+    .icon-nav-buttom-m{
+        width: 1.5em;
+    }
+
+    .icon-nav-buttom-a{
+        width: 1.5em;
+    }
+
+    .nav-title{
+        font-size: 13px;
+    }
+
+    .app-font-1{
+        font-size:14px;
+    }
+
+    .w-shadow-1{
+        /* width: 18.5rem; height: 16rem; */
+        width: 100%;
+        max-width: 40rem;
+        height: auto;
+        max-height: 100%;
+    }
+
+    span.icon-love {
+        margin-right: 10px;
+    }
+
+    .p-time{
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+
+    .mt-100{
+        margin-top: 40px;
+    }
+
+    span.line-one {
+        /* height: 270px;
+        left:22px; */
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 22px; /* sesuaikan dengan posisi icon-love */
+        width: 2px;
+        border: solid rgba(95, 95, 33, 0.4);
+        z-index: 0;
+    }
+
+    span.line-last {
+        /* height: 144px; */
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 22px; /* sesuaikan dengan posisi icon-love */
+        width: 2px;
+        border: solid rgba(95, 95, 33, 0.4);
+        z-index: 0;
+    }
+
+    .width-ctuk-1{
+        width: 23rem;
+    }
+
+    .width-maps-1{
+        width: 23rem;
+    }
+
+    .wh-maps{
+        width: 22rem;
+        border:0;
+    }
+
+    .size-mobile{
+        font-size: 14px;
+    }
+
+    .font-size-55{
+        font-size: 30px;
+    }
+}
+
+

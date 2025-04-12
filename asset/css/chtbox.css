@@ -1,0 +1,63 @@
+#click {
+    display: none;
+}
+
+.btn-audio{
+    border: none;
+}
+
+.label-box {
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    height: 30px;
+    width: 30px;
+    background: -webkit-linear-gradient(left, #5F5F21, #9B9B4C);
+    text-align: center;
+    line-height: 55px;
+    border-radius: 10px;
+    font-size: 50px;
+    color: #fff;
+    cursor: pointer;
+    z-index: 1031;
+    transition: transform .2s;
+}
+
+.icon-chatbox {
+    position: absolute;
+    color: #fff;
+    width: 20px;
+    top: 15px;
+    transform: translate(-50%, -50%);
+    transition: all 0.4s ease;
+}
+
+.label-box:hover {
+    -ms-transform: scale(1.1);
+    /* IE 9 */
+    -webkit-transform: scale(1.1);
+    /* Safari 3-8 */
+    transform: scale(1.1);
+}
+
+@media (max-width: 992px) {
+    .label-box {
+        right: 25px;
+        bottom: 130px;
+    }
+}
+
+@media (max-width: 576px) {
+    .label-box {
+        right: 25px;
+        bottom: 130px;
+    }
+
+    .icon-chatbox {
+        position: absolute;
+        top: 49%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        transition: all 0.4s ease;
+    }
+}
